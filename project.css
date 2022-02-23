@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+
+body{
+   min-height: 115vh;
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none; 
+    height: 80px;
+    background-color: black;
+    text-decoration-color: white;
+    /*justify-content: space-around; */
+}
+nav ul li{
+    
+    flex: auto;
+}
+#a1{
+margin-left: 700px;
+text-decoration: none;
+color: white;
+}
+#a2{
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+    }
+    #a3{
+        margin-left: 10px;
+        text-decoration: none;
+        color: white;
+        }
+#a1:hover{
+    color:rgba(201, 135, 48, 0.788)
+}
+#a2:hover{
+    color:rgba(201, 135, 48, 0.788)
+}
+#a3:hover{
+    color:rgba(201, 135, 48, 0.788)
+}
+@media all and (max-width : 400px){
+    nav ul{
+        flex-direction: column;
+    }
+    nav ul li{
+        text-align: center;
+    }
+}
+.brand img{
+    width: 90px;
+    padding: 0px;
+    cursor: pointer;
+    
+}
+.brand{
+    
+    display: flex;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    color: white;
+}
+.brandtxt{
+    
+display: flex;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.brand img:hover{
+    transition: 2s;
+    transform: rotate(360deg);
+}
+.bodyofweb{
+   
+    padding: 12px;
+    background: url("ngo_students.jpg");
+}
+.container{
+    min-height: 60vh;
+    background-color: black;
+    color: white;
+    font-family: 'Shippori Antique B1', sans-serif;
+    display: flex;
+    width: 90%;
+    margin: 30px auto;
+    border-radius: 12px;
+    padding: 30px;
+    justify-content: center;
+}
+
+.aboutus{
+    font-size: xx-large;
+    font-weight: 100;
+}
+ .hindi{
+align-items: center;
+}
+
+ footer{
+     display: flex;
+     margin-left: 1%;
+     margin-top: 5%;
+     justify-content: center;
+ }
+
+footer span a{
+    text-decoration: none;
+}
+
+button{
+    
+    right: 30px;
+    margin-top: 560px;
+    margin-right: 400px;  
+} 
+
+button a{
+    
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:200px;
+    height:100px;
+    border: 2px solid black;
+    background: rgb(131, 130, 130);
+    box-shadow: 4px 7px rgb(212, 6, 6) ;
+}
+button a:hover{
+  color: antiquewhite;
+  background: rgba(241, 2, 2, 0.699);
+  box-shadow: 4px 7px rgb(10, 10, 10) ;
+}
+/* Team section */
+#aboutteam .dexters .img{
+    margin-top: 80px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 140px;
+}
+.teamImage {
+    border: 0px solid transparent;
+    border-radius: 60px;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    margin-left: 80px;
+}
+#aboutteam{
+    
+    background-color: black;
+}
+a h2{
+    
+    text-align: center;
+    justify-content: center;
+}
